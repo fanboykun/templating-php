@@ -1,5 +1,6 @@
 <?php
-use Src\View\Home;
+
+use App\Pages\Home;
 // Usage
 $homeView = new Home();
 $homeView->render();

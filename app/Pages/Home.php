@@ -1,8 +1,8 @@
 <?php
-namespace Src\View;
+namespace App\Pages;
 
-use Src\Components\Header;
-use Src\Template\Layout;
+use App\Components\Header;
+use App\Template\Layout;
 
 // HomeView.php
 class Home extends Layout {

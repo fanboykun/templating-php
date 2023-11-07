@@ -1,5 +1,5 @@
 <?php
-namespace Src\Template;
+namespace App\Template;
 // Template.php
 class Layout {
     protected $pageTitle;

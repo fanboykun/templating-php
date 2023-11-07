@@ -1,5 +1,6 @@
 <?php
-namespace Src\Components;
+
+namespace App\Components;
 // ContentComponent.php
 class Header {
     protected $sectionTitle;
