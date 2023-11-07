@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Components;
-// ContentComponent.php
-class Header {
+
+class Footer {
     protected $sectionTitle;
     protected $content;
 
@@ -14,10 +14,10 @@ class Header {
     public function render() {
         // Output the content section
         echo <<<HTML
-        <section>
+        <footer>
             <h2>{$this->sectionTitle}</h2>
             <p>{$this->content}</p>
-        </section>
+        </footer>
         HTML;
     }
 }

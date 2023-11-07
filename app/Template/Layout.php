@@ -12,24 +12,24 @@ class Layout {
 
     public function renderHeader() {
         // Output the header section
-        echo "
+        echo <<<HTML
         <!DOCTYPE html>
-        <html>
-        <head>
-            <title>{$this->pageTitle}</title>
-        </head>
-        <body>
-        <header>
-            <h1>{$this->siteTitle}</h1>
-        </header>
-        ";
+            <html>
+            <head>
+                <title>{$this->pageTitle}</title>
+            </head>
+            <body>
+            <header>
+                <h1>{$this->siteTitle}</h1>
+            </header>
+        HTML;
     }
 
     public function renderFooter() {
         // Output the footer section
-        echo "
+        echo <<<HTML
         </body>
         </html>
-        ";
+        HTML;
     }
 }

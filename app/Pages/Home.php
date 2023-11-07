@@ -4,10 +4,12 @@ namespace App\Pages;
 use App\Components\Header;
 use App\Template\Layout;
 
-// HomeView.php
 class Home extends Layout {
-    public function __construct() {
+
+    public $data;
+    public function __construct(mixed $data = null) {
         parent::__construct("Home", "My Website");
+        $this->data = $data;
     }
 
     public function render() {
